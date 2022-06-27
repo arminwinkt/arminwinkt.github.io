@@ -1,0 +1,52 @@
+
+body {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.5rem;
+    font-family: 'Courier Prime', monospace;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+[contenteditable] {
+    outline: 0 solid transparent;
+}
+
+.intro {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.description div {
+    margin-bottom: 2rem;
+}
+
+.outro {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+.social {
+    margin-top: 3rem;
+}
+
+.typo {
+    visibility: hidden;
+}
+
+.typo.go {
+    visibility: visible;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+}
