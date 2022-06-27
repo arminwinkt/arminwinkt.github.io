@@ -6,7 +6,7 @@ body {
     font-family: 'Courier Prime', monospace;
     max-width: 60rem;
     margin: 0 auto;
-    padding: 4rem;
+    padding: 6rem 4rem;
 }
 
 [contenteditable] {
@@ -44,6 +44,7 @@ body {
     body {
         font-size: 1rem;
         line-height: 2rem;
+        padding: 6rem 3rem;
     }
 
     .intro {

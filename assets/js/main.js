@@ -29,7 +29,7 @@ function renderPage(event) {
         const $social = $('.social');
         let to        = $social.offset();
         agent.moveTo(to.left, to.top + $social.height());
-        agent.gestureAt(200, 200);
+        agent.gestureAt(to.left + $social.width(), to.top);
       }, (start * SPEED))
 
       setTimeout(function () {
