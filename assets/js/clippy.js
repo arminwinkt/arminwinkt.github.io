@@ -1008,4 +1008,3 @@ if (typeof window !== 'undefined') {
 return clippy;
 
 })));
-//# sourceMappingURL=clippy.js.map
